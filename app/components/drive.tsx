@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import useOnScreen from "../components/useOnScreen"; // Import the custom hook
-import { withClientComponents } from '@vercel/server-components';
 
 function Drive() {
   const ref = useRef<HTMLDivElement>(null);
@@ -46,4 +45,4 @@ function Drive() {
   );
 }
 
-export default withClientComponents(Drive);
+export default Drive;
