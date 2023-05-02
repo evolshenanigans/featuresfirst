@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import useOnScreen from "../components/useOnScreen"; // Import the custom hook
 
 function Drive() {
-  const ref = useRef();
+  const ref = useRef<HTMLDivElement>(null);
   const onScreen = useOnScreen(ref);
 
   const variants = {
