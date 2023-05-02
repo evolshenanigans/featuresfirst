@@ -1,5 +1,5 @@
 import React from "react";
-import Headerpic from "../Images/featuresfirstheader.png";
+import Headerpic from "../components/images/featuresfirstheader.png";
 import Image from "next/image";
 //add a little bit of shadow on the button
 function header() {

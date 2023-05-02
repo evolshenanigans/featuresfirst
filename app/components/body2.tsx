@@ -1,6 +1,6 @@
 import React from 'react'
-import Safety from '../Images/safetyauto.jpg'
-import Safety2 from '../Images/safetyautogirl.jpg'
+import Safety from '../components/images/safetyauto.jpg'
+import Safety2 from '../components/images/safetyautogirl.jpg'
 import Image from 'next/image'
 
 function body2() {
