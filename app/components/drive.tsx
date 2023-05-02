@@ -2,20 +2,9 @@
 
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
-import useOnScreen from "../components/useOnScreen"; // Import the custom hook
+import { variants, variants2 } from "../../utils/motion";
 
-function Drive() {
-  const ref = useRef<HTMLDivElement>(null);
-  const onScreen = useOnScreen(ref);
 
-  const variants = {
-    hidden: { x: -500 },
-    visible: { x: 0 },
-  };
-  const variants2 = {
-    hidden: { x: 500 },
-    visible: { x: 0 },
-  };
 
   return (
     <div ref={ref} className="flex flex-row w-full h-screen justify-center items-center text-center">
