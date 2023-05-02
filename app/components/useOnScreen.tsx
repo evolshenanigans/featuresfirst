@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function useOnScreen(ref) {
+function useOnScreen(ref:any) {
   const [isIntersecting, setIntersecting] = useState(false);
 
   useEffect(() => {

@@ -1,4 +1,4 @@
-
+"use client";
 import React, { FunctionComponent } from "react";
 import img from "../images/bgfeaturesfirstcallout1final.png";
 import Image from "next/image";
