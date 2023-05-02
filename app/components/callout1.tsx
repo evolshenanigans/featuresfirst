@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import bgimg from "../images/bgfeaturesfirstcallout1final.png";
+import bgimg from "../components/images/bgfeaturesfirstcallout1final.png";
 import Image from "next/image";
 
 const Callout1 = () =>{
