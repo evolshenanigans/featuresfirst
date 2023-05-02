@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import useOnScreen from "../components/useOnScreen"; // Import the custom hook
