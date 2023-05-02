@@ -11,7 +11,6 @@ const Callout1: FunctionComponent = () => {
           src={img}
           alt="Background"
           className="object-fit object-center h-screen w-screen"
-          layout="fill"
         />
       </div>
       <h1 className="font-serif font-semibold text-7xl drop-shadow-md z-10">
