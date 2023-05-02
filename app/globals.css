@@ -15,8 +15,48 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+* {
+  outline: red dashed 1px;
+}
+.gradient-03 {
+  position: absolute;
+  width: 404px;
+  height: 800px;
+  left: -10%;
+  top: 20%;
 
-body {
-  background: #e5e5e5;
-  
+  background: rgba(243, 233, 173, 0.35);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+.gradient-04 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  right: -10%;
+  top: -10%;
+
+  background: rgba(250,187,151, .35);
+  filter: blur(80px);
+  transform: rotate(53.13deg);
+}
+
+.gradient-05 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.gradient-06 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: -20%;
+  top: -20%;
+  overflow: hidden;
+
+  background: rgba(89,64,108, 0.35);
+  filter: blur(80px);
+  transform: rotate(53.13deg);
 }

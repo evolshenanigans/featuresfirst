@@ -2,9 +2,9 @@ import React from "react";
 
 function values() {
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen bg-[#e5e5e5] mt-40">
+    <div className="flex flex-col justify-center items-center w-screen h-screen bg-[#e5e5e5]">
       <div className="flex flex-row justify-center w-full m-5">
-        <div className=" bg-[#5C5C5C] rounded-xl group relative cursor-pointer w-1/2 h-44 m-4 items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 flex">
+        <div className=" bg-[#e5e5e5] rounded-xl group relative cursor-pointer w-1/2 h-44 m-4 items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 flex">
           <h1 className="font-extrabold text-[#A7A7A7] text-4xl mb-4 transition-transform duration-500 group-hover:rotate-2 group-hover:scale-125 text-center">
             Our Approach to Learning
           </h1>
@@ -22,7 +22,7 @@ function values() {
             </button>
           </div>
         </div>
-        <div className=" bg-[#5C5C5C] rounded-xl group relative cursor-pointer w-1/2 h-44 m-4 items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 flex">
+        <div className=" bg-[#e5e5e5] rounded-xl group relative cursor-pointer w-1/2 h-44 m-4 items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 flex">
           <h1 className="font-extrabold text-[#A7A7A7] text-4xl mb-4 transition-transform duration-500 group-hover:rotate-2 group-hover:scale-125 text-center">
             Our Mission
           </h1>
@@ -41,7 +41,7 @@ function values() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center w-11/12 bg-[#5c5c5c] rounded-xl h-44 px-5 mx-5 group relative cursor-pointer items-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30  ">
+      <div className="flex flex-col justify-center w-11/12 bg-[#e5e5e5] rounded-xl h-44 px-5 mx-5 group relative cursor-pointer items-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30  ">
         <h1 className="font-extrabold text-[#a7a7a7] text-4xl mb-4 justify-center items-center text-center transition-transform duration-500 group-hover:rotate-0 group-hover:scale-125">
           Our Values
         </h1>

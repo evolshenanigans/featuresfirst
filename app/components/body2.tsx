@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function body2() {
   return (
-    <div className='flex min-h-screen items-center justify-center bg-[#e5e5e5]'>
+    <div className='flex min-h-screen m items-center justify-center bg-[#e5e5e5] mb-0 pb-0'>
         <div className='group h-96 w-80 [perspective:1000px] mx-6'>
             <div className='relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] border-4 border-solid border-[#E19901]'>
                 <div className='absolute inset-0'>
