@@ -1,9 +1,9 @@
 "use client";
-import React, { FunctionComponent } from "react";
+import React from "react";
 import bgimg from "../images/bgfeaturesfirstcallout1final.png";
 import Image from "next/image";
 
-const Callout1: FunctionComponent = () => {
+const Callout1 = () =>{
   return (
     <div className="h-screen flex flex-col justify-center text-center relative overflow-hidden">
       <div className="absolute inset-0">
