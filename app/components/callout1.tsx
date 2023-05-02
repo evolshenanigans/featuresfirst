@@ -1,6 +1,6 @@
 "use client";
 import React, { FunctionComponent } from "react";
-import img from "../images/bgfeaturesfirstcallout1final.png";
+import bgimg from "../images/bgfeaturesfirstcallout1final.png";
 import Image from "next/image";
 
 const Callout1: FunctionComponent = () => {
@@ -8,7 +8,7 @@ const Callout1: FunctionComponent = () => {
     <div className="h-screen flex flex-col justify-center text-center relative overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src={img}
+          src={bgimg}
           alt="Background"
           className="object-fit object-center h-screen w-screen"
         />
