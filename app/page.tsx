@@ -1,5 +1,3 @@
-"use client";
-
 import { Inter } from "next/font/google";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
@@ -26,13 +24,13 @@ export default function Home() {
       </div>
       <div className="relative">
         <div className="gradient-04 z-0 m-0" />
-          <Drive />
-          <Callout2 />
+        <Drive />
+        <Callout2 />
       </div>
       <Values />
       <div className="relative">
-        <div className="gradient-06 z-0 m-0"/>
-          <Callout3 />
+        <div className="gradient-06 z-0 m-0" />
+        <Callout3 />
       </div>
       <Footer />
       {/* <Body/> */}

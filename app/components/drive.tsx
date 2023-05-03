@@ -1,13 +1,18 @@
-'use client';
+"use client";
 
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { variants, variants2 } from "../../utils/motion";
+import useOnScreen from "@/utils/useOnScreen";
 
-
-
+function Drive() {
+  const ref = useRef<HTMLDivElement>(null);
+  const onScreen = useOnScreen(ref);
   return (
-    <div ref={ref} className="flex flex-row w-full h-screen justify-center items-center text-center">
+    <div
+      ref={ref}
+      className="flex flex-row w-full h-screen justify-center items-center text-center"
+    >
       <motion.div
         className="flex-1 bg-white mx-4 rounded-lg shadow-lg p-4"
         initial="hidden"
@@ -20,7 +25,9 @@ import { variants, variants2 } from "../../utils/motion";
       </motion.div>
       <div className="flex-1 bg-white mx-4 rounded-lg shadow-lg p-4">
         <h1>Drive Empowered</h1>
-        <p>Improve your connection with the safety technology in your vehicle</p>
+        <p>
+          Improve your connection with the safety technology in your vehicle
+        </p>
       </div>
       <motion.div
         className="flex-1 bg-white mx-4 rounded-lg shadow-lg p-4"
