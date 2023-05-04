@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { variants, variants2 } from "../../utils/motion";
 import useOnScreen from "@/utils/useOnScreen";
+import { AiFillCar } from "react-icons/ai";
 
 function Drive() {
   const ref = useRef<HTMLDivElement>(null);
@@ -20,10 +21,12 @@ function Drive() {
         variants={variants}
         transition={{ duration: 1 }}
       >
+        <AiFillCar className="w-full text-5xl" />
         <h1>Drive Safe</h1>
         <p>Automotive safety technology always sides with you</p>
       </motion.div>
       <div className="flex-1 bg-white mx-4 rounded-lg shadow-lg p-4">
+        <AiFillCar className="w-full text-5xl" />
         <h1>Drive Empowered</h1>
         <p>
           Improve your connection with the safety technology in your vehicle
@@ -36,6 +39,7 @@ function Drive() {
         variants={variants2}
         transition={{ duration: 1 }}
       >
+        <AiFillCar className="w-full text-5xl" />
         <h1>Drive Informed</h1>
         <p>Reduce the risk of technology misuses</p>
       </motion.div>
