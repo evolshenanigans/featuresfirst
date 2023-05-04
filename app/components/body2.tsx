@@ -85,7 +85,7 @@ function Body2() {
                 </div>
             </div>
         </div>
-        <Modal isOpen={isOpen} onRequestClose={closeModal} contentLabel="YouTube Video" style={customStyles}>
+        <Modal isOpen={isOpen} onRequestClose={closeModal} contentLabel="YouTube Video">
             <button onClick={closeModal} className="absolute top-2 right-2 bg-transparent border-none text-white text-xl cursor-pointer" >&times;</button>
             <YouTube videoId="dQw4w9WgXcQ" opts={opts} />
         </Modal>
