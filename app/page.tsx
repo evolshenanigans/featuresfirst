@@ -9,6 +9,7 @@ import Drive from "./components/drive";
 import Callout1 from "./components/callout1";
 import Callout2 from "./components/callout2";
 import Callout3 from "./components/callout3";
+import MissionStatement from "./components/missionStatement";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function Home() {
         <div className="gradient-06 z-0 m-0" />
         <Callout3 />
       </div>
+      <MissionStatement/>
       <Footer />
       {/* <Body/> */}
     </main>
