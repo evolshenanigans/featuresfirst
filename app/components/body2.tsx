@@ -43,10 +43,9 @@ function Body2() {
           </div>
           <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
             <div className="flex min-h-full flex-col items-center justify-center">
-              <h1 className="text-3xl font-bold">Corporate</h1>
-              <p className="text-lg">text goes here</p>
+              <h1 className="text-3xl font-bold">A Corporate Learning Solution</h1>
               <p className="text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                We train fleet drivers to understand your company's safety vehicle technologies and how to translate their newly acquired knowledge to drive safer on public roads.
               </p>
               <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                 {" "}
@@ -67,10 +66,9 @@ function Body2() {
           </div>
           <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
             <div className="flex min-h-full flex-col items-center justify-center">
-              <h1 className="text-3xl font-bold">Consumer</h1>
-              <p className="text-lg">text goes here</p>
+              <h1 className="text-3xl font-bold">A Company Learning Solution</h1>
               <p className="text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                We train your customers to understand their vehicle's safety technology and how to translate their newly acquired knowledge to drive safer on public roads.
               </p>
               <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                 {" "}

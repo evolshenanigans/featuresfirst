@@ -15,9 +15,9 @@ function Navbar() {
         <a href="/" className="p-4 hover:text-[#fd9862]">
           Home
         </a>
-        <a href="/" className="p-4 hover:text-[#fd9862]">
+        {/* <a href="/" className="p-4 hover:text-[#fd9862]">
           Our Solutions
-        </a>
+        </a> */}
         <a href="/" className="p-4 hover:text-[#fd9862]">
           Resources
         </a>
