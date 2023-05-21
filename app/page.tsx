@@ -12,8 +12,6 @@ import Callout3 from "./components/callout3";
 import MissionStatement from "./components/missionStatement";
 import MyCarousel from "./components/carousel";
 import DemoForm from "./components/demoForm";
-// import MyCarousel from "./components/carousel";
-// import data from "./data";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -37,7 +35,7 @@ export default function Home() {
         <Callout3 />
       </div>
       <MissionStatement />
-      {/* <MyCarousel /> */}
+      <MyCarousel />
       <DemoForm/>
       <Footer />
       {/* <Body/> */}
