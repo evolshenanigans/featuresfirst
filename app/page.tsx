@@ -10,7 +10,10 @@ import Callout1 from "./components/callout1";
 import Callout2 from "./components/callout2";
 import Callout3 from "./components/callout3";
 import MissionStatement from "./components/missionStatement";
-
+import MyCarousel from "./components/carousel";
+import DemoForm from "./components/demoForm";
+// import MyCarousel from "./components/carousel";
+// import data from "./data";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -33,7 +36,9 @@ export default function Home() {
         <div className="gradient-06 z-0 m-0" />
         <Callout3 />
       </div>
-      <MissionStatement/>
+      <MissionStatement />
+      {/* <MyCarousel /> */}
+      <DemoForm/>
       <Footer />
       {/* <Body/> */}
     </main>

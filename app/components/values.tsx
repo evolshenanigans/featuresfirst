@@ -62,7 +62,7 @@ function values() {
               Safety
             </h3>
             <p className="mb-0 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            We are committed to reducing collisions on public roads
+              We are committed to reducing collisions on public roads
             </p>
             <h3 className="mb-0 text-sm font-bold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               Sustanability
@@ -70,7 +70,7 @@ function values() {
             <p className="mb-0 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               We are committed to increasing sustainable transportation
             </p>
-            <button className="rounded-full bg-[#D94F33] py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+            <button className="mx-auto w-[200px] rounded-full bg-[#D94F33] py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-[#BF441D]">
               Schedule a Demo
             </button>
           </div>
