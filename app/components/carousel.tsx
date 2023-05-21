@@ -6,19 +6,16 @@ import blogimg from "../components/images/Featurestalkblog.jpg";
 
 function carousel() {
   return (
-    <div className="flex h-[20rem] space-x-4">
-      <div
-        className="flex-1 rounded-lg bg-center bg-no-repeat bg-auto/100 hover:flex-5 transition-all duration-800 ease-in-out bg-gradient-to-r"
-        style={{ backgroundImage: "url('../components/images/adas.jpg')" }}
-      />
-      <div
-        className="flex-1 rounded-lg bg-center bg-no-repeat bg-auto/100 hover:flex-5 transition-all duration-800 ease-in-out bg-gradient-to-r"
-        style={{ backgroundImage: "url('featurestalkpodcast.png')" }}
-      />
-      <div
-        className="flex-1 rounded-lg bg-center bg-no-repeat bg-auto/100 hover:flex-5 transition-all duration-800 ease-in-out bg-gradient-to-r"
-        style={{ backgroundImage: "url('Featurestalkblog.jpg')" }}
-      />
+    <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box ">
+      <div className="carousel-item">
+        <Image src={adas} alt="" className="rounded-box" />
+      </div>
+      <div className="carousel-item">
+        <Image src={podcastimg} alt="" className="rounded-box" />
+      </div>
+      <div className="carousel-item">
+        <Image src={blogimg} alt="" className="rounded-box" />
+      </div>
     </div>
   );
 }

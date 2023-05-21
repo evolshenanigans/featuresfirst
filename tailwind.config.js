@@ -1,3 +1,5 @@
+const daisyui = require('daisyui');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -15,5 +17,6 @@ module.exports = {
     },
   },
   plugins: [require("tailwind-scrollbar"),
-  require ('@tailwindcss/forms')],
+  require('@tailwindcss/forms'),
+require("daisyui")],
 };
