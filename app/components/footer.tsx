@@ -2,7 +2,11 @@ import React from "react";
 import Image from "next/image";
 import testimg1 from "../components/images/testimonials1.png";
 import testimg2 from "../components/images/testimonials2.png";
-//create 2 divs one on top of eachother the top div should have a background color of #e09900 and the bottom one should have a background color of #59406c
+import cert1 from "../components/images/certsnmsdc.jpg";
+import cert2 from "../components/images/certswbenc.png";
+import cert3 from "../components/images/certswosb.webp";
+import cert4 from "../components/images/certssupp.jpg";
+
 function Footer() {
   return (
     <footer className="flex flex-col w-full bg-[#e5e5e5]">
@@ -47,6 +51,14 @@ function Footer() {
           </h2>
         </div>
       </div>
+
+    <div className="flex aspect-[4/1]">
+      <Image src={cert1} alt="" className="w-[25%]"/>
+      <Image src={cert2} alt="" className="w-[25%]"/>
+      <Image src={cert3} alt="" className="w-[25%]"/>
+      <Image src={cert4} alt="" className="w-[25%]"/>
+    </div>
+
       <div className="flex flex-col w-full bg-[#59406c] h-10 p-5">
         <h1 className="text-white text-sm text-center">
           ©2019 FeaturesFirst Auto, a multipurpose automotive platform. |
