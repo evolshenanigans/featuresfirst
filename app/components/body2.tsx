@@ -45,7 +45,7 @@ function Body2() {
             <div className="flex min-h-full flex-col items-center justify-center">
               <h1 className="text-3xl font-bold">A Corporate Learning Solution</h1>
               <p className="text-base">
-                We train fleet drivers to understand your company's safety vehicle technologies and how to translate their newly acquired knowledge to drive safer on public roads.
+                We train fleet drivers to understand your company&apos;s safety vehicle technologies and how to translate their newly acquired knowledge to drive safer on public roads.
               </p>
               <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                 {" "}
@@ -68,7 +68,7 @@ function Body2() {
             <div className="flex min-h-full flex-col items-center justify-center">
               <h1 className="text-3xl font-bold">A Company Learning Solution</h1>
               <p className="text-base">
-                We train your customers to understand their vehicle's safety technology and how to translate their newly acquired knowledge to drive safer on public roads.
+                We train your customers to understand their vehicle&apos;s safety technology and how to translate their newly acquired knowledge to drive safer on public roads.
               </p>
               <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                 Learn More
