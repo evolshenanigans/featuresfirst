@@ -9,8 +9,9 @@ import cert4 from "../components/images/certssupp.jpg";
 
 function Footer() {
   return (
+// testimonials begin
     <footer className="flex flex-col w-full bg-[#e5e5e5]">
-      <div className="card card-side bg-base-100 shadow-xl relative">
+      <div className="card card-side bg-white shadow-2xl relative m-3">
         <figure className="relative w-full h-[300px]">
           <Image src={testimg1} alt="Movie" />
         </figure>
@@ -23,7 +24,7 @@ function Footer() {
           </h2>
         </div>
       </div>
-      <div className="card card-side bg-base-100 shadow-xl">
+      <div className="card card-side bg-white shadow-2xl relative m-3">
         <figure>
           <Image src={testimg2} alt="Movie" />
         </figure>
@@ -45,14 +46,14 @@ function Footer() {
           </h2>
         </div>
       </div>
-
+{/* certs */}
       <div className="flex aspect-[4/1]">
         <Image src={cert1} alt="" className="w-[25%]" />
         <Image src={cert2} alt="" className="w-[25%]" />
         <Image src={cert3} alt="" className="w-[25%]" />
         <Image src={cert4} alt="" className="w-[25%]" />
       </div>
-
+{/* legal stuff */}
       <div className="flex flex-col w-full bg-[#59406c] h-10 p-5">
         <h1 className="text-white text-sm text-center">
           &copy;2019 FeaturesFirst Auto, a multipurpose automotive platform. |

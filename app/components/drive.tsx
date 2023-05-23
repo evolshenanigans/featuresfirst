@@ -12,7 +12,7 @@ function Drive() {
   return (
     <div
       ref={ref}
-      className="flex flex-row w-full h-screen justify-center items-center text-center"
+      className=" text-black flex flex-row w-full h-screen justify-center items-center text-center"
     >
       <motion.div
         className="flex-1 bg-white mx-4 rounded-lg shadow-lg p-4"

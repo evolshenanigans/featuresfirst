@@ -20,18 +20,18 @@ export default function Home() {
       <Navbar />
       <Header />
       <div className="relative">
-        <div className="gradient-03 z-0" />
+        {/* <div className="gradient-03 z-0" /> */}
         <Body2 />
         <Callout1 />
       </div>
       <div className="relative">
-        <div className="gradient-04 z-0 m-0" />
+        {/* <div className="gradient-04 z-0 m-0" /> */}
         <Drive />
         <Callout2 />
       </div>
       <Values />
       <div className="relative">
-        <div className="gradient-06 z-0 m-0" />
+        {/* <div className="gradient-06 z-0 m-0" /> */}
         <Callout3 />
       </div>
       <MissionStatement />
