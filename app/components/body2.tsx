@@ -71,8 +71,7 @@ function Body2() {
                 We train your customers to understand their vehicle's safety technology and how to translate their newly acquired knowledge to drive safer on public roads.
               </p>
               <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                {" "}
-                Learn More{" "}
+                Learn More
               </button>
             </div>
           </div>
