@@ -33,7 +33,7 @@ function Footer() {
             EVERYONE with a car and EVERYONE that knows somebody with a car
             (i.e. everyone). The cars we drive can inspire different energies
             within us, and we need to trust and rely on our cars to get us, our
-            passengers, and other drivers on the road to where we're going,
+            passengers, and other drivers on the road to where we&apos;re going,
             SAFELY. Safety recalls are so common across all manufacturers,
             makes, and models- and the consumer hardly knows how to do anything
             about it! FeaturesFirst Auto keeps drivers, and their loved ones
