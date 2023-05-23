@@ -35,8 +35,8 @@ function values() {
           <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
             <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               Our mission is to reduce the number of collisions on public roads
-              by reinventing driver's education that is for non-technical
-              learners and relevant to today's vehicle safety technologies.
+              by reinventing driver&apos;s education that is for non-technical
+              learners and relevant to today&apos;s vehicle safety technologies.
             </p>
             <button className="rounded-full bg-[#D94F33] py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
               Schedule a Demo
