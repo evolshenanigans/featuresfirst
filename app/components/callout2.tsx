@@ -2,7 +2,7 @@ import React from "react";
 
 function callout2() {
   return (
-    <div className="h-screen bg-[#e5e5e5] flex flex-col justify-center text-center ">
+    <div className="h-screen flex flex-col justify-center text-center ">
       <div>
         <h1 className="text-black font-serif font-semibold text-7xl drop-shadow-md">
           Technology helps mature drivers

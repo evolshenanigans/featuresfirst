@@ -2,7 +2,7 @@ import React from "react";
 
 function values() {
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen bg-[#e5e5e5]">
+    <div className="flex flex-col justify-center items-center w-screen h-screen">
       <div className="flex flex-col lg:flex-row justify-center w-full m-5 flex-wrap items-center lg:items-start">
         <div className="bg-[#ffffff] rounded-xl shadow-lg group relative cursor-pointer w-full md:w-1/2 lg:w-1/3 h-44 m-4 items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 flex ">
           <h1 className="font-extrabold text-black text-4xl mb-4 transition-transform duration-500 group-hover:rotate-2 group-hover:scale-125 text-center">

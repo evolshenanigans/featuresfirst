@@ -12,11 +12,12 @@ import Callout3 from "./components/callout3";
 import MissionStatement from "./components/missionStatement";
 import MyCarousel from "./components/carousel";
 import DemoForm from "./components/demoForm";
+import Sprinkle from "./components/images/Sprinkle.svg";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="scrollbar-none bg-[#e5e5e5] overflow-hidden ">
+    <main className="scrollbar-none overflow-hidden bg-hero-pattern" >
       <Navbar />
       <Header />
       <div className="relative">

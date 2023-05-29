@@ -15,9 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-* {
+/* * {
   outline: red dashed 1px;
-}
+} */
 .gradient-03 {
   position: absolute;
   width: 404px;

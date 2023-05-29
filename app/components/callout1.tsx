@@ -6,7 +6,7 @@ import Image from "next/image";
 const Callout1 = () =>{
   return (
     <div className="h-screen flex flex-col justify-center text-center relative overflow-hidden">
-      <div className="absolute inset-0">
+      {/* <div className="absolute inset-0">
         <Image
           src={bgimg}
           alt="Background"
@@ -14,7 +14,7 @@ const Callout1 = () =>{
           width={1920}
             height={1080}
         />
-      </div>
+      </div> */}
       <h1 className="text-black font-serif font-semibold text-7xl drop-shadow-md z-10">
         Technology helps teen drivers
       </h1>
