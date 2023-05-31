@@ -11,7 +11,7 @@ import { variants, variants2 } from "../../utils/motion";
 import useOnScreen from "@/utils/useOnScreen";
 import { useRef } from "react";
 
-function values() {
+function Values() {
   const ref = useRef<HTMLDivElement>(null);
   const onScreen = useOnScreen(ref);
   return (
@@ -161,4 +161,4 @@ function values() {
   );
 }
 
-export default values;
+export default Values;
