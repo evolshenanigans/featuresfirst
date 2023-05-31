@@ -143,7 +143,7 @@ function values() {
             <h1 className="font-extrabold text-black text-xl m-4 text-center">
               Our Sustainability Mission statement
             </h1>
-            <p className="mb-3 text-md text-black">
+            <p className="mb-3 text-md text-black text-center">
               We are dedicated to environmental improvements that foster a
               sustainable future and lead to social and economical improvements
               in the communities we do business.
