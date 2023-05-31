@@ -35,7 +35,7 @@ export default function Home() {
         {/* <div className="gradient-06 z-0 m-0" /> */}
         <Callout3 />
       </div>
-      <MissionStatement />
+      {/* <MissionStatement /> */}
       <MyCarousel />
       <DemoForm/>
       <Footer />
