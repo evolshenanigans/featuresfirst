@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import MissionStatement from "../components/images/safetyauto.jpg";
+import learnbytext from "../components/images/learnbytext.png";
 
 function missionStatement() {
   return (
     <div className="card card-side bg-white shadow-2xl m-3">
       <figure>
         <Image
-          src={MissionStatement}
+          src={learnbytext}
           alt="missionstatement"
           className="rounded-box m-1 "
         />
