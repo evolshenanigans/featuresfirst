@@ -80,7 +80,7 @@ function Values() {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="bg-[#F2EEE9] rounded-xl shadow-lg group relative cursor-pointer w-full md:w-2/3 lg:w-1/3 h-60 m-4 items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 flex flex-row"
           initial="hidden"
           animate={onScreen ? "visible" : "hidden"}
@@ -124,7 +124,7 @@ function Values() {
               </button>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );
