@@ -29,7 +29,7 @@ function Values() {
         >
           <div className="flex flex-col justify-center items-center w-1/2">
             <Image
-              src={micro}
+              src={missionstatement}
               alt="microlearning"
               className="rounded-box m-1"
             />
@@ -123,37 +123,6 @@ function Values() {
                 Schedule a Demo
               </button>
             </div>
-          </div>
-        </motion.div>
-        <motion.div
-          className="bg-[#F2EEE9] rounded-xl shadow-lg group relative cursor-pointer w-full md:w-2/3 lg:w-1/3 h-60 m-4 items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 flex flex-row"
-          initial="hidden"
-          animate={onScreen ? "visible" : "hidden"}
-          variants={variants2}
-          transition={{ duration: 1 }}
-        >
-          <div className="flex flex-col justify-center items-center w-1/2">
-            <Image
-              src={missionstatement}
-              alt="microlearning"
-              className="rounded-box m-1"
-            />
-          </div>
-          <div className="w-1/2 p-4">
-            <h1 className="font-extrabold text-black text-xl m-4 text-center">
-              Our Sustainability Mission statement
-            </h1>
-            <p className="mb-3 text-md text-black text-center">
-              We are dedicated to environmental improvements that foster a
-              sustainable future and lead to social and economical improvements
-              in the communities we do business.
-            </p>
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-          <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <button className="rounded-full bg-[#D94F33] py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-              Schedule a Demo
-            </button>
           </div>
         </motion.div>
       </div>
