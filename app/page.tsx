@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+
 import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Values from "./components/values";
@@ -10,8 +10,8 @@ import Callout2 from "./components/callout2";
 import Callout3 from "./components/callout3";
 import MyCarousel from "./components/carousel";
 import DemoForm from "./components/demoForm";
+import Featuresfirstcallout from "./components/featuresfirstcallout";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <div className="relative">
+        <Featuresfirstcallout />
         <Body2 />
         <Callout1 />
       </div>

@@ -8,8 +8,8 @@ function header() {
       <Image src={Headerpic} alt="" className="h-full w-full rounded-xl" />
       <div className="absolute top-1/3 left-[20%] transform -translate-x-1/2 -translate-y-1/2 w-96 flex flex-col items-center justify-center">
         <h1 className="font-extrabold text-center text-[#59406c] mb-0">
-          Drivers education relevant to today's vehicles for drivers, passengers
-          and everyone else on the road
+          Drivers education relevant to today&apos;s vehicles for drivers,
+          passengers and everyone else on the road
         </h1>
         <button className="bg-[#fd9862] text-[#59406c] font-bold py-2 px-4 rounded-md shadow-md">
           Learn More
