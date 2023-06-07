@@ -7,7 +7,7 @@ function header() {
     <div className="bg-[#e5e5e5] h-screen w-screen overflow-hidden">
       <Image src={Headerpic} alt="" className="h-full w-full rounded-xl" />
       <div className="absolute top-1/3 left-[20%] transform -translate-x-1/2 -translate-y-1/2 w-96 flex flex-col items-center justify-center">
-        <h1 className="font-extrabold text-center text-[#59406c] mb-0">
+        <h1 className="font-manrope font-light text-2xl text-center text-black mb-0">
           Drivers education relevant to today&apos;s vehicles for drivers,
           passengers and everyone else on the road
         </h1>
