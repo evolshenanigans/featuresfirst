@@ -15,7 +15,7 @@ import Featuresfirstcallout from "./components/featuresfirstcallout";
 
 export default function Home() {
   return (
-    <main className="scrollbar-none overflow-hidden bg-hero-pattern">
+    <main className="scrollbar-none overflow-hidden bg-[#e5e5e5]">
       <Navbar />
       <Header />
       <div className="relative">
