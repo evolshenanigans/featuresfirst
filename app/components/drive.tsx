@@ -43,7 +43,7 @@ function Drive() {
         <span className="relative -top-3 px-2 text-5xl font-semibold">Our Values</span>
       </motion.div>
       <motion.div
-        className="card lg:card-side bg-[#F2EEE9] shadow-xl w-3/4 mb-4"
+        className="card lg:card-normal bg-[#F2EEE9] shadow-xl w-3/4 mb-4"
         initial="hidden"
         animate={onScreen ? "visible" : "hidden"}
         variants={variants}
@@ -62,7 +62,7 @@ function Drive() {
         </div>
       </motion.div>
       <motion.div
-        className="card lg:card-side bg-[#F2EEE9] shadow-xl w-3/4 mb-4"
+        className="card lg:card-normal bg-[#F2EEE9] shadow-xl w-3/4 mb-4"
         initial="hidden"
         animate={onScreen ? "visible" : "hidden"}
         variants={variants2}
@@ -83,7 +83,7 @@ function Drive() {
         </div>
       </motion.div>
       <motion.div
-        className="card lg:card-side bg-[#F2EEE9] shadow-xl w-3/4"
+        className="card lg:card-normal bg-[#F2EEE9] shadow-xl w-3/4"
         initial="hidden"
         animate={onScreen ? "visible" : "hidden"}
         variants={variants}
