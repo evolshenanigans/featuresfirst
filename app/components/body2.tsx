@@ -6,7 +6,7 @@ import Image from "next/image";
 function Body2() {
   return (
     <main className="flex justify-center items-center space-x-4">
-      <div className="card w-full md:w-1/2 group">
+      <div className="card w-full md:w-1/2 image-full  group">
         <figure className="aspect-[16/9] object-cover">
           <Image src={Safety} alt="corporate" />
         </figure>
